@@ -19,4 +19,4 @@ If you have suggestions for improving the site or if you see any bugs, please su
 To edit the website, you should download the files onto your computer and make changes there. If you'd like the changes to be incorporated into the master copy, you may need to learn how to use git and GitHub for version control. If you're just interested in having a copy to play around with, you can click the "Clone or Download" button in the upper left.
 
 ## Development
-At some point there will be some information here about the organization of this repository and some guidelines for developing, maintaining and deploying the webpage.
+See [DEVELOPMENT.md](https://github.com/Z2h-A6n/greven-web/blob/master/DEVELOPMENT.md "Development README").
