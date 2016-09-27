@@ -6,8 +6,9 @@ This GitHub repository is used for developing and maintaining our group webpage.
 
 ## Viewing the web page
 There are several ways to view the web page:
+  * [View the page on the web.](https://rawgit.com/Z2h-A6n/greven-web/master/index.html "Home page via RawGit")
   * Download the contents of this repository and view the page on your local computer. Use the "Clone or Download" button in the upper right.
-  * View the page on the web. There's probably some easy and elegant way to do this, but I haven't looked into it yet.
+
 
 ## Submitting Feedback
 We can track suggestions and corrections to the webpage using GitHub's issue-tracking feature. Doing this will help keep development and maintenance organized. To use this feature, click on the "Issues" tab.
