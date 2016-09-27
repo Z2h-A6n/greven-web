@@ -1,0 +1,192 @@
+/* Colors (listed here to help with find and replace)
+ * Based on UMN-reccomended digital colors. 1 is primary, 2 is dark secondary, 3 is light secondary. L is more white (washed out).
+ * 	Maroon1: 	#7a0019
+ * 	Maroon2: 	#5b0013
+ * 	Maroon3: 	#900021
+ * 	Gold1: 		#ffcc33
+ * 	Gold2: 		#ffb71e
+ * 	Gold3: 		#ffde7a
+ * 	Blue1: 		#16bbe6
+ * 	Blue1L:		#87d5eb
+ * 	Blue2: 		#0b3d4c
+ * 	Blue2L: 	#809fa6
+ * 	Blue3: 		#a3dce8
+ * 	Blue3L: 	#d0edf5
+ * 	Orange1: 	#e98524
+ * 	Orange1L: 	#f6c17e
+ * 	Orange2: 	#ca7a29
+ * 	Orange2L: 	#e5ba7f
+ * 	Orange3: 	#f0cc65
+ * 	Orange3L: 	#f7e7b2
+ * 	Green1: 	#bcd530
+ * 	Green1L: 	#dde681
+ * 	Green2: 	#726f2d
+ * 	Green2L: 	#b9b790
+ * 	Green3: 	#dfe670
+ * 	Green3L: 	#eef2b8
+ * 	Grey1: 		#cccccc
+ * 	Grey1L: 	#
+ * 	Grey2: 		#616365
+ * 	Grey2L: 	#b7b7b7
+ * 	Grey3: 		#d5d6d2
+ * 	Grey3L: 	#ebebeb
+ * 	Brown1: 	#e2d3a4
+ * 	Brown1L: 	#
+ * 	Brown2: 	#91785b
+ * 	Brown2L: 	#d3bf96
+ * 	Brown3: 	#e9debb
+ * 	Brown3L: 	#f0e9d1
+ */
+
+
+body{
+	background: #616365;
+}
+
+#margin-container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1152px;
+}
+
+#group-header {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 1152px;
+	font-size: 20px;
+	background-color: #616365;
+}
+
+#navcontainer {
+	background-color: #616365;
+}
+
+#navcontainer ul
+{
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 0;
+	margin-top: 0; 					/* cancels gap caused by top padding in Opera 7.54 */
+	margin-left: 0;
+	background-color: #616365;
+	color: white;
+	width: 100%;
+/*	font-family: Arial,Helvetica,sans-serif; */
+	line-height: 25px; 				/* fixes Firefox 0.9.3 */
+}
+
+#navcontainer ul li {
+	display: inline;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 5px; 				/* matches link padding except for left and right */
+	padding-top: 5px;
+}
+
+#navcontainer ul li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: white;
+	text-decoration: none;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	white-space: nowrap;
+}
+
+#navcontainer ul li a:hover {
+	background-color: #0b3d4c;
+	color: white;
+	white-space: nowrap;
+}
+
+#page-body {
+	overflow: hidden;
+	background-color: #809fa6;
+	padding: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+/* Home page (index.html) */
+
+#news-container {
+	background-color: #951;
+	float: left;
+	width: 25%;
+	height: 100%;
+	padding: 1.25%;
+	border-width: 2px;
+	border color: white;
+	margin: 0 5%;
+	font-size: small;
+}
+
+#news-container h2 {
+	background-color: #456;
+	padding: 0.5%;
+	text-align: center;
+	font-size: large;
+}
+
+#news-container h3 {
+	background-color: #678;
+	padding: 0.5%;
+	font-size: small;
+}
+
+.etal {
+	font-style: italic;
+}
+
+/*#sponsor-container {
+
+}*/
+
+/* People (people.html) */
+
+#people-container {
+	clear: both;
+}
+
+#person {
+	clear: both;
+}
+
+#person img {
+	float: left;
+	margin: 0 3% 1% 1%;
+	width: 200px;
+	height: 200px;
+}
+
+#person h2 {
+
+}
+
+/* Research (research.html) */
+
+
+
+/* Publications (pubications.html) */
+
+#publication-container {
+	background-color: #7a0019;
+	padding: 0.5%;
+	margin: 2% 5%;
+}
+
+/* Collaborations (collaborations.html) */
+
+
+
+/* Links (links.html) */
+
+
+
+/* Resources (resources.html) */
+
+
