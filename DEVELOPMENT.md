@@ -1,9 +1,9 @@
-# Website Development
+# Website development
 Some guidelines and resources for web development in general and this site in particular.
 
-## Important Notes
+## Important notes
 In order to keep things organized, always follow these rules unless it's impossible to do otherwise
-### Web Development
+### Web development
   * Use good coding style.
     * Use comments to make notes in the code
     * Use indentation to make the code structure clear
@@ -14,11 +14,11 @@ In order to keep things organized, always follow these rules unless it's impossi
   * Don't make things more complicated than the should be. Just because we can make a fancy website
   feature with JavaScript or PHP doesn't mean we should.
 
-### Web Design
+### Web design
   * I don't know anything about web design, but it's probably a good idea to look up some of the
   basics (and add some guidelines here).
 
-### Git and GitHub Use
+### Git and GitHub use
   * Keep commits small. If you're planning to do a lot of unrelated things, consider making separate
   commits.
   * Use meaningful and short commit messages
@@ -29,24 +29,24 @@ In order to keep things organized, always follow these rules unless it's impossi
 Some guidelines. TODO: Write some guidelines.
 
 ## Resources
-### UMN Website Resources
+### UMN website resources
   * [UMN Branding Information](https://www.ur.umn.edu/brand)
     * [UMN Header and Footer Builder](https://www.ur.umn.edu/brand/template-builder)
     * [UMN Reccomended Colors (PDF)](https://ur.umn.edu/brand/assets/pdf/secondary_colors_rgb.pdf)
 
-### General Web Development Resources
+### General web development resources
   * [HTML Dog](http://htmldog.com) has some good tutorials and reference information for HTML and CSS
 
-### Example Websites
+### Example websites
 In no particular order. (If your website is listed here and don't like it, send someone in the group
 an email and it will probably find its way to the relevant people.)
 
-#### Research Group Websites
+#### Research group websites
   * [The Lorenz Group](http://web.engr.illinois.edu/~vlorenz) at UIUC
   * [Stanford Applied Physics](https://web.stanford.edu/dept/app-physics/cgi-bin)
   * [The Hsieh Group](http://hsiehlab.caltech.edu) at Caltech
 
-#### Research Center Websites
+#### Research center websites
   * [Institute for Quantum Matter](http://iqm.jhu.edu) at John's Hopkins and Princeton
   * [Quantum Matter Institute](http://qmi.ubc.ca) at UBC
   * [Stanford Institute for Materials and Energy Sciences](http://simes.stanford.edu) at Stanford and SLAC
