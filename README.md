@@ -12,7 +12,7 @@ There are several ways to view the website:
   * Download the contents of this repository and view the site on your local computer. Use the "Clone or Download" button in the upper right.
 
 
-## Submitting Feedback
+## Submitting feedback
 If you have suggestions for improving the site or if you see any bugs, please submit an issue to the issue tracker by going to the "Issues" tab in GitHub. If you don't have a GitHub account, either sign up for a GitHub account (if you expect to submit lots of bugs and suggestions, or if you intend to help with the code), or send an email to someone who is working on the code.
 
 ## Editing the website
