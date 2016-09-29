@@ -40,7 +40,7 @@
 
 
 body{
-	background: #FFFFFF;
+	background: #f7e7b2;
 }
 
 #margin-container {
@@ -59,7 +59,7 @@ body{
 }
 
 #navcontainer {
-	background-color: #ffcc33;
+	background-color: #616365;
 }
 
 #navcontainer ul
@@ -70,7 +70,7 @@ body{
 	padding-left: 0;
 	margin-top: 0; 					/* cancels gap caused by top padding in Opera 7.54 */
 	margin-left: 0;
-	background-color: #ffcc33;
+	background-color: #616365;
 	color: white;
 	width: 100%;
 /*	font-family: Arial,Helvetica,sans-serif; */
@@ -90,7 +90,7 @@ body{
 	padding-right: 10px;
 	padding-bottom: 5px;
 	padding-top: 5px;
-	color: maroon;
+	color: white;
 	text-decoration: none;
 	border-left: 1px solid #fff;
 	border-right: 1px solid #fff;
@@ -98,14 +98,14 @@ body{
 }
 
 #navcontainer ul li a:hover {
-	background-color: #0b3d4c;
+	background-color: #900021;
 	color: white;
 	white-space: nowrap;
 }
 
 #page-body {
 	overflow: hidden;
-	background-color: #FFFFFF;
+	background-color: #f7e7b2;
 	padding: 2%;
 	padding-left: 2%;
 	padding-right: 2%;
@@ -114,7 +114,7 @@ body{
 /* Home page (index.html) */
 
 #news-container {
-	background-color: #951;
+	background-color: #d3bf96;
 	float: left;
 	width: 25%;
 	height: 100%;
@@ -126,14 +126,14 @@ body{
 }
 
 #news-container h2 {
-	background-color: #456;
+	background-color: #d3bf96;
 	padding: 0.5%;
 	text-align: center;
 	font-size: large;
 }
 
 #news-container h3 {
-	background-color: #678;
+	background-color: #d3bf96;
 	padding: 0.5%;
 	font-size: small;
 }
@@ -174,7 +174,7 @@ body{
 /* Publications (pubications.html) */
 
 #publication-container {
-	background-color: #7a0019;
+	background-color: #d3bf96;
 	padding: 0.5%;
 	margin: 2% 5%;
 }
