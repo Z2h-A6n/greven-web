@@ -73,7 +73,7 @@ body{
 	background-color: #ffcc33;
 	color: white;
 	width: 100%;
-/*	font-family: Arial,Helvetica,sans-serif; */
+    font-family: Arial,Helvetica,sans-serif;
 	line-height: 25px; 				/* fixes Firefox 0.9.3 */
 }
 
@@ -105,35 +105,41 @@ body{
 
 #page-body {
 	overflow: hidden;
+    margin-left: 15px;
 	background-color: #FFFFFF;
-	padding: 2%;
-	padding-left: 2%;
-	padding-right: 2%;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 30px;
 }
 
+#text-block {
+    margin-left: 5%;
+    float: left;
+    width: 65%;
+    font-family: Arial,Helvetica,sans-serif;
+    line-height: 30px;
+}
 /* Home page (index.html) */
 
 #news-container {
-	background-color: #951;
-	float: left;
+	background-color: #f7e7b2;
+    float: right;
 	width: 25%;
 	height: 100%;
-	padding: 1.25%;
 	border-width: 2px;
-	border color: white;
-	margin: 0 5%;
-	font-size: small;
+	border-color: white;
+	margin: 0;
+	font-size: medium;
 }
 
 #news-container h2 {
-	background-color: #456;
+	background-color: #f7e7b2;
 	padding: 0.5%;
 	text-align: center;
 	font-size: large;
 }
 
 #news-container h3 {
-	background-color: #678;
+	background-color: #f7e7b2;
 	padding: 0.5%;
 	font-size: small;
 }
@@ -174,9 +180,10 @@ body{
 /* Publications (pubications.html) */
 
 #publication-container {
-	background-color: #7a0019;
+	background-color: #ffde7a;
 	padding: 0.5%;
 	margin: 2% 5%;
+    font-family:Arial;
 }
 
 /* Collaborations (collaborations.html) */
