@@ -58,12 +58,168 @@ body{
 	background-color: #616365;
 }
 
+/* Homepage Slider */
+/* TODO:
+ *   Make this behave well on narrow screens
+ *   Test this on a variety of browsers
+ *   Make it work with different image sizes
+ *   Make the tooltip and progress bar work
+ */
+#slider {
+	background: #616365;
+	border: 5px solid #eaeaea;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+	height: 320px;
+	width: 680px;
+	margin: 40px auto 0;
+	overflow: visible;
+	position: relative;
+}
+
+#mask {
+	overflow: hidden;
+	height: 310px;
+}
+
+#slider ul {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+#slider li {
+	width: 680px;   /* Image Width */
+	height: 320px;  /* Image Height */
+	position: absolute;
+	top: -325px;   /* Start image outside slider */
+	list-style: none;
+}
+
+#slider img {
+	width: auto;
+	height: auto;
+	max-width: 680px;
+	max-height: 320px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Homepage slider animation 
+ * The cycle time in li.[nth]animation is the total duration of the sliedshow
+ * The timing of keyframes is given by their percentage through the animation duration.
+ *     e.g. with a 20s duration, 5% is 1s
+ */
+#slider li.firstanimation {
+	animation: cycle 20s linear infinite;
+}
+
+#slider li.secondanimation {
+	animation: cycletwo 20s linear infinite;
+}
+
+#slider li.thirdanimation {
+	animation: cyclethree 20s linear infinite;
+}
+
+#slider li.fourthanimation {
+	animation: cyclefour 20s linear infinite;
+}
+
+@keyframes cycle {
+	0%  { top: 0px;    opacity: 1; } /* Start the first slide in view */
+	20% { top: 0px;    opacity: 1; } /* Stay there for 4s */
+	25% { top: 325px;  opacity: 0; } /* Move out of view for 1s */
+	95% { top: -325px; opacity: 0; } /* Move back to start */
+	100%{ top: 0px;    opacity: 1; } /* Enter image for 1s */
+}
+
+@keyframes cycletwo {
+	0%  { top: -325px; opacity: 0; } /* Start out of view */
+	20% { top: -325px; opacity: 0; } /* Stay there for 4s */
+	25% { top: 0px;    opacity: 1; } /* Move into view for 1s */
+	45% { top: 0px;    opacity: 1; } /* Stay there for 4s */
+	50% { top: 325px;  opacity: 0; } /* Move out for 1s */
+	100%{ top: -325px; opacity: 0; } /* Move back to start */
+}
+
+@keyframes cyclethree {
+	0%  { top: -325px; opacity: 0; } /* Start out of view */
+	45% { top: -325px; opacity: 0; } /* Stay there for 9s */
+	50% { top: 0px;    opacity: 1; } /* Move into view for 1s */
+	70% { top: 0px;    opacity: 1; } /* Stay there for 4s */
+	75% { top: 325px;  opacity: 0; } /* Move out for 1s */
+	100%{ top: -325px; opacity: 0; } /* Move back to start */
+}
+
+@keyframes cyclefour {
+	0%  { top: -325px; opacity: 0; } /* Start out of view */
+	70% { top: -325px; opacity: 0; } /* Stay there for 14s */
+	75% { top: 0px;    opacity: 1; } /* Move into view for 1s */
+	95% { top: 0px;    opacity: 1; } /* Stay there for 4s */
+	100%{ top: 325px;  opacity: 0; } /* Move out for 1s */
+}
+
+/* Homepage Slider Progress Bar */
+.progress-bar {
+	position: relative;
+	top: -5px;
+	width: 680px;
+	height: 5px;
+	background: #000;
+	animation: fullexpand 20s ease-out infinite;
+}
+
+@keyframes fullexpand {
+	/* Become visible */
+	0%, 25%, 50%, 75%, 100% { width: 0%; opacity: 0.7; }
+	/* Move */
+	20%, 45%, 70%, 95% { width: 100%; opacity: 0.7; }
+	/* Fade out */
+	23%, 48%, 73%, 98% { width: 100%; opacity: 0; }
+	/* Empty */
+	24%, 49%, 74%, 99% { width: 0%; opacity: 0; }
+}
+
+/* Homepage Slider Tooltip */
+#slider .tooltip {
+	background: rgba(0,0,0,0.7);
+	min-width: 300px;
+	max-width: 680px;
+	width: auto;
+	height: 60px;
+	position: relative;
+	bottom: 100px;
+	left: -680px;
+	transition: all 0.3s ease-in-out;
+}
+
+#slider .tooltip h1 {
+	color: #fff;
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 60px;
+	padding: 0 0 0 10px;
+}
+
+#slider li#first:hover .tooltip,
+#slider li#second:hover .tooltip,
+#slider li#third:hover .tooltip,
+#slider li#fourth:hover .tooltip {
+	left: 0px;
+}
+
+#slider:hover li,
+#slider:hover .progress-bar {
+	animation-play-state: paused;
+}
+
+/* Navigation Bar */
 #navcontainer {
 	background-color: #616365;
 }
 
-#navcontainer ul
-{
+#navcontainer ul {
 	text-align: center;
 	padding-bottom: 5px;
 	padding-top: 5px;
