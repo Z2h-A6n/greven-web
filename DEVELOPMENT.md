@@ -2,7 +2,14 @@
 Some guidelines and resources for web development in general and this site in particular.
 
 ## Important notes
-In order to keep things organized, always follow these rules unless it's impossible to do otherwise
+In order to keep things organized, always follow these rules unless it's impossible to do otherwise.
+
+In general:
+  * Use tab characters for indentation at the beginning of a line. If you want to align some text that's not at the beginning of the line, use spaces.
+    * In other words, there should never be space characters at the beginning of a line, and there should never be tab characters except at the beginning of a line.
+  * Keep the code organized.
+    * This is mostly necessary in HTML in order to make the page display correctly, but for CSS this means you should try to keep related code together. (Also consider putting comments at the beginning of big code blocks.)
+
 ### Web development
   * Use good coding style.
     * Use comments to make notes in the code
@@ -11,6 +18,9 @@ In order to keep things organized, always follow these rules unless it's impossi
     * HTML should be used for all content, and content only.
     * CSS should be used for styling and presentation and only for styling and presentation.
     * HTML and CSS should be in separate files to the greatest practical extent.
+  * When possible, write code that is compatible with the widest range of browsers. This may mean not using the latest and greatest features of HTML5 and CSS3.
+    * Also try to write your code so that it looks good on a small screen (e.g smartphones). You can test this by making your browser window small.
+    * If you are writing code that will probably fail on old/lame browsers, try to make it fail gracefully (e.g. if the slideshow doesn't work, display the first picture instead).
   * Don't make things more complicated than the should be. Just because we can make a fancy website
   feature with JavaScript or PHP doesn't mean we should.
 
