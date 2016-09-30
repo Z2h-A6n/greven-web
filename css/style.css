@@ -69,9 +69,11 @@ body{
 	background: #616365;
 	border: 5px solid #eaeaea;
 	box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-	height: 320px;
-	width: 680px;
-	margin: 40px auto 0;
+	width: auto;
+	width: auto;
+	max-width: 680px;
+	max-height: 320px;
+	margin: 0 auto;
 	overflow: visible;
 	position: relative;
 }
@@ -82,17 +84,23 @@ body{
 }
 
 #slider ul {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	position: relative;
 }
 
 #slider li {
-	width: 680px;   /* Image Width */
-	height: 320px;  /* Image Height */
+	width: auto;
+	height: auto;
+	max-width: 680px;
+	max-height: 320px;
+	display: block;
+	left: 50%;
+	margin-right: -50%;
 	position: absolute;
-	top: -325px;   /* Start image outside slider */
+	top: 0px;   /* Start image outside slider */
 	list-style: none;
+	transform: translate(-50%, 0);
 }
 
 #slider img {
