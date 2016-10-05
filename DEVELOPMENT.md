@@ -15,7 +15,6 @@ Since this repo uses `git-lfs` to manage it's large files (i.e. images), you nee
 In order to keep things organized, always follow these rules unless it's impossible to do otherwise.
 
 In general:
-  * This repo uses git-lfs to track large files (mainly images). If you are going to use git to interact with the repo, you need to install git-lfs. See the instructions [here](https://git-lfs.github.com/). Stop after `git lfs install`. The remaining instructions aonly need to be done once for the repo, and they have already been done.
   * Use tab characters for indentation at the beginning of a line. If you want to align some text that's not at the beginning of the line, use spaces.
     * In other words, there should never be space characters at the beginning of a line, and there should never be tab characters except at the beginning of a line.
   * Keep the code organized.
