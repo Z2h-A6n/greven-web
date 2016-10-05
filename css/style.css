@@ -252,12 +252,15 @@ body{
 #navcontainer ul li a {
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-bottom: 5px;
-	padding-top: 5px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin: 20px 0 20px 0;
 	color: white;
 	text-decoration: none;
 	border-left: 1px solid #fff;
 	border-right: 1px solid #fff;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
 	white-space: nowrap;
 }
 
@@ -302,9 +305,14 @@ body{
 	font-size: large;
 }
 
-#news-container h3 {
-	background-color: #d3bf96;
-	padding: 0.5%;
+#news-item {
+	background-color: #eee;
+	padding: 2px;
+	border: 1px solid #555;
+	margin: 3px 1px;
+}
+
+#news-item h3 {
 	font-size: small;
 }
 
