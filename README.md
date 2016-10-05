@@ -8,7 +8,7 @@ Currently, this repository contains a work-in-progress version of the future gro
 
 ## Viewing the site
 There are several ways to view the website:
-  * [View it on the web.](https://rawgit.com/Z2h-A6n/greven-web/master/index.html "Home page via RawGit")
+  * [View it on the web.](http://homepages.spa.umn.edu/~zanderso/greven-web/index.html "Home page via Zach's physics page.")
   * Download the contents of this repository and view the site on your local computer. Use the "Clone or Download" button in the upper right.
 
 
