@@ -1,6 +1,16 @@
 # Website development
 Some guidelines and resources for web development in general and this site in particular.
 
+## Using `git` and `git-lfs`
+Since this repo uses `git-lfs` to manage it's large files (i.e. images), you need to use `git` with `git-lfs` to clone or download the repo.
+  * See [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for instructions on installing `git`.
+  * See [here](https://try.github.io) for a pretty good tutorial on how to use `git`. (Takes about 15 minutes.)
+  * See [here](https://git-lfs.github.com/) for instructions on installing `git-lfs`. Essentially:
+    * Download the (zipped) software package.
+	* Unzip the package? (I don't remember if this is necessary).
+	* Run `git lfs install` from the command line.
+	* __Stop.__ The remainder of the instructions just need to be done once for the repo, and they have already been done.
+
 ## Important notes
 In order to keep things organized, always follow these rules unless it's impossible to do otherwise.
 
