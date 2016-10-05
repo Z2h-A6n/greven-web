@@ -318,6 +318,11 @@ body{
 
 /* People (people.html) */
 
+#group-photo img {
+	width: 100%;
+	height: auto;
+}
+
 #people-container {
 	clear: both;
 }
