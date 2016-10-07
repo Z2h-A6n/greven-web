@@ -63,7 +63,6 @@ body{
  *   Make this behave well on narrow screens
  *   Test this on a variety of browsers
  *   Make it work with different image sizes
- *   Make the tooltip and progress bar work
  */
 #slider {
 	background: #616365;
