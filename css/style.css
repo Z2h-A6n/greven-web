@@ -3,6 +3,14 @@ body{
 	background: white;
 }
 
+a:link {
+	color: #0b3d4c;
+}
+
+a:hover {
+	color: #16bbe6;
+}
+
 #margin-container {
 	margin-left: auto;
 	margin-right: auto;
@@ -243,7 +251,7 @@ body{
 }
 
 #news-container {
-	background-color: #cccccc;
+	background-color: #91785b;
 	float: left;
 	width: 25%;
 	height: 100%;
@@ -254,8 +262,8 @@ body{
 }
 
 #news-container h2 {
-	background-color: #cccccc;
-	color: maroon;
+	background-color: #d3bf96;
+	color: #7a0019;
 	padding: 0.5%;
 	text-align: center;
 	font-size: medium;
@@ -268,7 +276,12 @@ body{
 }
 
 #news-item h3 {
+	color: #7a0019;
 	font-size: small;
+}
+
+#news-item h3 a {
+	color: #7a0019;
 }
 
 .etal {
