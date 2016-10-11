@@ -1,6 +1,6 @@
 /* General site style */
 body{
-	background: #f7e7b2;
+	background: white;
 }
 
 #margin-container {
@@ -51,12 +51,13 @@ body{
 	padding-bottom: 2px;
 	padding-top: 2px;
 	margin: 20px 0 20px 0;
+	background-color: #3A3434;
 	color: white;
 	text-decoration: none;
-	border-left: 1px solid #fff;
-	border-right: 1px solid #fff;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
 	white-space: nowrap;
 }
 
@@ -69,7 +70,7 @@ body{
 #page-body {
 	overflow: hidden;
 	margin-left: 15px;
-	background-color: #f7e7b2;
+	background-color: white;
 	font-family: Arial,Helvetica,sans-serif;
 	line-height: 30px;
 }
@@ -85,7 +86,7 @@ body{
 /* Home page (index.html) */
 /* Homepage Slider */
 #slider {
-	background: #616365;
+	background: #3A3434;
 	border: 5px solid #eaeaea;
 	box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 	width: auto;
@@ -242,28 +243,28 @@ body{
 }
 
 #news-container {
-	background-color: #d3bf96;
-	float: right;
+	background-color: #cccccc;
+	float: left;
 	width: 25%;
 	height: 100%;
 	border-width: 2px;
 	border-color: white;
 	margin: 0;
-	font-size: medium;
+	font-size: small;
 }
 
 #news-container h2 {
-	background-color: #d3bf96;
+	background-color: #cccccc;
+	color: maroon;
 	padding: 0.5%;
 	text-align: center;
-	font-size: large;
+	font-size: medium;
 }
 
 #news-item {
-	background-color: #eee;
+	background-color: #cccccc;
 	padding: 2px;
-	border: 1px solid #555;
-	margin: 3px 1px;
+	margin: 3px 3px;
 }
 
 #news-item h3 {
@@ -309,7 +310,7 @@ body{
 
 /* Publications (pubications.html) */
 #publication-container {
-	background-color: #d3bf96;
+	background-color: white;
 	padding: 0.5%;
 	margin: 2% 5%;
 	font-family:Arial;
@@ -320,4 +321,6 @@ body{
 /* Links (links.html) */
 
 /* Resources (resources.html) */
+
+
 
