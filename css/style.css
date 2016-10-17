@@ -1,6 +1,7 @@
 /* General site style */
 body{
 	background: white;
+	font-family: sans-serif;
 }
 
 a:link {
@@ -41,7 +42,6 @@ a:hover {
 	background-color: #616365;
 	color: white;
 	width: 100%;
-	font-family: Arial,Helvetica,sans-serif;
 	line-height: 25px; 				/* fixes Firefox 0.9.3 */
 }
 
@@ -79,16 +79,7 @@ a:hover {
 	overflow: hidden;
 	margin-left: 15px;
 	background-color: white;
-	font-family: Arial,Helvetica,sans-serif;
-	line-height: 30px;
-}
-
-#text-block {
-	margin-left: 5%;
-	float: left;
-	width: 65%;
-	font-family: Arial,Helvetica,sans-serif;
-	line-height: 30px;
+/*	line-height: 30px;*/
 }
 
 /* Home page (index.html) */
@@ -257,7 +248,7 @@ a:hover {
 	height: 100%;
 	border-width: 2px;
 	border-color: white;
-	margin: 0;
+	margin: 0px 25px 0px 5px;
 	font-size: small;
 }
 
@@ -305,18 +296,19 @@ a:hover {
 	border: 1px solid #444;
 	border-radius: 10px;
 	margin: 3px 1px;
+	
+}
+
+#person-text {
+	display: inline-block;
 }
 
 #person img {
 	float: left;
-	display: block;
+	display: inline-block;
 	margin: 0 3% 1% 1%;
 	width: 200px;
 	height: 200px;
-}
-
-#person h2 {
-
 }
 
 /* Research (research.html) */
