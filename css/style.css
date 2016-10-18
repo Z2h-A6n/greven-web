@@ -6,10 +6,12 @@ body{
 
 a:link {
 	color: #0b3d4c;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover {
-	color: #809fa6;
+	color: #303030;
 }
 
 #margin-container {
@@ -313,6 +315,8 @@ a:hover {
 /* Research (research.html) */
 
 /* Publications (pubications.html) */
+
+
 #publication-container-local {
 	background-color: #d3bf96;
 	padding: 0.5%;
