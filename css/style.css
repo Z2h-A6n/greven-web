@@ -23,6 +23,7 @@ a:hover {
 #group-header {
 	width: 100%;
 	max-width: 1152px;
+	color: #ffcc33;
 	background-color: #616365;
 	overflow: auto;
 }
@@ -262,7 +263,6 @@ a:hover {
 }
 
 #news-container {
-	background-color: #91785b;
 	float: left;
 	width: 25%;
 	height: 100%;
@@ -273,26 +273,24 @@ a:hover {
 }
 
 #news-container h2 {
-	background-color: #d3bf96;
-	color: #7a0019;
-	padding: 0.5%;
+	background-color: #616365;
+	color: #ffcc33;
+	padding: 2px;
 	text-align: center;
 	font-size: medium;
+	border-radius: 5px;
+	margin: 5px 3px 3px;
 }
 
 #news-item {
 	background-color: #cccccc;
 	padding: 2px;
-	margin: 3px 3px;
+	margin: 3px 5px;
+	border-radius: 5px;
 }
 
 #news-item h3 {
-	color: #7a0019;
 	font-size: small;
-}
-
-#news-item h3 a {
-	color: #7a0019;
 }
 
 .etal {
