@@ -21,11 +21,10 @@ a:hover {
 }
 
 #group-header {
-	margin-left: auto;
-	margin-right: auto;
 	width: 100%;
 	max-width: 1152px;
 	background-color: #616365;
+	overflow: auto;
 }
 
 #group-header-left {
@@ -50,6 +49,7 @@ a:hover {
 /* Navigation Bar */
 #navcontainer {
 	background-color: #616365;
+	clear: both;
 }
 
 #navcontainer ul {
