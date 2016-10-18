@@ -263,9 +263,9 @@ a:hover {
 }
 
 #news-container {
+	display: inline-block;
 	float: left;
-	width: 25%;
-	height: 100%;
+	width: 30%;
 	border-width: 2px;
 	border-color: white;
 	margin: 0px 25px 0px 5px;
@@ -291,6 +291,11 @@ a:hover {
 
 #news-item h3 {
 	font-size: small;
+}
+
+#main-content {
+	display: inline-block;
+	width: 65%;
 }
 
 .etal {
