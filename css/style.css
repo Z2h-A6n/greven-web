@@ -110,7 +110,6 @@ a:hover {
 	border: 5px solid #eaeaea;
 	box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 	width: auto;
-	width: auto;
 	max-width: 800px;
 	max-height: 320px;
 	margin: 0 auto;
@@ -132,7 +131,7 @@ a:hover {
 #slider li {
 	width: auto;
 	height: auto;
-	max-width: 680px;
+	max-width: 800px;
 	max-height: 320px;
 	display: block;
 	left: 50%;
@@ -146,7 +145,7 @@ a:hover {
 #slider img {
 	width: auto;
 	height: auto;
-	max-width: 680px;
+	max-width: 800px;
 	max-height: 320px;
 	display: block;
 	margin-left: auto;
@@ -212,7 +211,7 @@ a:hover {
 .progress-bar {
 	position: relative;
 	top: -5px;
-	width: 680px;
+	width: 800px;
 	height: 5px;
 	background: #000;
 	animation: fullexpand 20s ease-out infinite;
@@ -232,13 +231,11 @@ a:hover {
 /* Homepage Slider Tooltip */
 #slider .tooltip {
 	background: rgba(0,0,0,0.7);
-	min-width: 300px;
-	max-width: 680px;
-	width: auto;
+	width: 800px;
 	height: 60px;
 	position: relative;
-	bottom: 100px;
-	left: -680px;
+	bottom: 91px;
+	left: -800px;
 	transition: all 0.3s ease-in-out;
 }
 
