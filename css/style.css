@@ -25,9 +25,27 @@ a:hover {
 	margin-right: auto;
 	width: 100%;
 	max-width: 1152px;
-	font-size: 20px;
 	background-color: #616365;
 }
+
+#group-header-left {
+	float: left;
+	display: inline-block;
+	font-size: 25px;
+	font-family: serif;
+	width: auto;
+	margin: 5px 10px;
+}
+
+#group-header-right {
+	float: right;
+	display: inline-block;
+	font-size: 15px;
+	font-family: serif;
+	width: auto;
+	margin: 5px 10px;
+}
+
 
 /* Navigation Bar */
 #navcontainer {
@@ -86,6 +104,7 @@ a:hover {
 /* Home page (index.html) */
 /* Homepage Slider */
 #slider {
+	clear: both;
 	background: #3A3434;
 	border: 5px solid #eaeaea;
 	box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
