@@ -295,6 +295,18 @@ a:hover {
 	width: 65%;
 }
 
+#logo-container {
+	text-align: center;
+}
+
+#logo-container img {
+	display: inline-block;
+	width: auto;
+	max-width: 300px;
+	max-height: 200px;
+	margin: 30px;
+}
+
 .etal {
 	font-style: italic;
 }
