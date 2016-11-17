@@ -66,7 +66,8 @@ an email and it will probably find its way to the relevant people.)
   * [Stanford Applied Physics](https://web.stanford.edu/dept/app-physics/cgi-bin)
   * [The Hsieh Group](http://hsiehlab.caltech.edu) at Caltech
 
-#### Research center websites
+#### Research center (and other) websites
   * [Institute for Quantum Matter](http://iqm.jhu.edu) at John's Hopkins and Princeton
   * [Quantum Matter Institute](http://qmi.ubc.ca) at UBC
   * [Stanford Institute for Materials and Energy Sciences](http://simes.stanford.edu) at Stanford and SLAC
+  * [Science Philanthropy Alliance](http://www.sciencephilanthropyalliance.org)
