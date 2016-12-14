@@ -1,16 +1,10 @@
 # greven-web
-The future research group website for Martin Greven's group at the University of Minnesota.
+The development repo for the website of Martin Greven's research group at the University of Minnesota.
 
 ## About
 This GitHub repository is used for developing and maintaining our group website. As of this writing, it is a public repository which anyone can see, so keep that in mind when making changes and submitting feedback.
 
-Currently, this repository contains a work-in-progress version of the future group website; you can see the current version [here](http://groups.physics.umn.edu/grevengroup/index.html "Current Greven Group Website").
-
-## Viewing the site
-There are several ways to view the website:
-  * [View it on the web.](http://homepages.spa.umn.edu/~zanderso/greven-web/index.html "Home page via Zach's physics page.")
-  * Download the contents of this repository and view the site on your local computer. Use the "Clone or Download" button in the upper right.
-
+You can visit the website [here](http://groups.physics.umn.edu/grevengroup/index.html). 
 
 ## Submitting feedback
 If you have suggestions for improving the site or if you see any bugs, please submit an issue to the issue tracker by going to the "Issues" tab in GitHub. If you don't have a GitHub account, either sign up for a GitHub account (if you expect to submit lots of bugs and suggestions, or if you intend to help with the code), or send an email to someone who is working on the code.
