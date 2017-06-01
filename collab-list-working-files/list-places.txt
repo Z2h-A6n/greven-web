@@ -1,0 +1,22 @@
+A. Damascelli			UBC, Q. Matter Inst.
+A. I. Goldman			Ames Lab, Iowa State
+B. Keimer				M.P.I. Solid State Res.
+D. L. Abernathy			Q. CM Div. ORNL
+E. H. da Silva Neto		UC Davis
+E. Weschke				Helmholtz-Zent. Berlin für Materialien und Energie
+F. He					CLS
+G. A. Sawatzky			UBC, QMI
+G. Ghiringhelli			CNR-SPIN, CNISM, Dipartimento di Fisica, Politecnico di Milano
+J. T. Park				Forsch.neut.que. Heinz Maier-Leibnitz
+J. Yan					ALS, LBNL
+J. Zhang				D. Phys. S. China U of Tech.
+P. Bourges				LLB CEA-Saclay
+P. Steffens				ILL
+R. L. Greene			C for Nanophys + Adv. Mat., U Mary.
+T. Geballe				D. App. Phys. + Geballe Lab for Adv. Mat.
+T. P. Devereaux			SIMES, SLAC
+T. Schmitt				Res. Dept. Syncro Rad + Nanotech, Paul Scherrer Institut
+W. L. Mao				Photon Science, SLAC Nat. Acc. Lab, Dept. Geo. + Env. Sci.
+
+Masaaki Matsuda			Q. CM Div. ORNL
+Masaki Fujita
