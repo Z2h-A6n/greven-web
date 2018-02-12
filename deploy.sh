@@ -17,6 +17,14 @@ if [ -z "$USER" ]; then
 	exit 1
 fi
 
+# get current branch name
+ORIGINAL_BRANCH="$(git symbolic-ref --short -q HEAD)"
+
+# switch to production
+git checkout production
+
+# rsync
+printf "Synchronizing files with webserver.\n"
 rsync --verbose --verbose --progress --rsh='ssh' --recursive --update \
 	--delete-after --delete-excluded \
 	--perms --chmod='ug=rw,o=r,Dugo+x' \
@@ -25,5 +33,13 @@ rsync --verbose --verbose --progress --rsh='ssh' --recursive --update \
 	--exclude='/skel.html' --exclude='/.*' \
 	. $USER@$HOST:$DIR
 
+# fix perms
+printf "Fixing file permissions.\n"
 # the rsync on the server is old and doesn't understand --chown or --groupmap
 ssh $USER@$HOST "chown -R :$GROUP $DIR/*"
+
+# switch back to branch
+git checkout "$ORIGINAL_BRANCH"
+
+printf "Webserver synchronized to production branch.\n"
+printf "Have you pushed to origin lately?\n"
