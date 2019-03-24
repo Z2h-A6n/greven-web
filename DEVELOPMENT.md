@@ -5,6 +5,7 @@ Some guidelines and resources for web development in general and this site in pa
 Since this repo uses `git-lfs` to manage it's large files (i.e. images), you need to use `git` with `git-lfs` to clone or download the repo.
   * See [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) for instructions on installing `git`.
   * See [here](https://try.github.io) for a pretty good tutorial on how to use `git`. (Takes about 15 minutes.)
+      * Note: the tutorial that used to be at this link has disappeared. There are still some useful things there, but no simple tutorial. If you find one, go ahead and update the link.
   * See [here](https://git-lfs.github.com/) for instructions on installing `git-lfs`. Essentially:
     * Download the (zipped) software package.
 	* Unzip the package? (I don't remember if this is necessary).
