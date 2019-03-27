@@ -143,6 +143,11 @@ a:hover {
     margin: 10px 0;
 }
 
+#main-address {
+	text-align: center;
+    font-size: small;
+}
+
 #logo-container {
 	text-align: center;
 }
