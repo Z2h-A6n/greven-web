@@ -139,6 +139,10 @@ a:hover {
 	width: 65%;
 }
 
+#main-list li {
+    margin: 10px 0;
+}
+
 #logo-container {
 	text-align: center;
 }
