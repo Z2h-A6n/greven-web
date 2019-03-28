@@ -134,6 +134,11 @@ a:hover {
 	font-size: small;
 }
 
+#news-date {
+    text-align: right;
+    font-size: small;
+}
+
 #main-content {
 	display: inline-block;
 	width: 65%;
