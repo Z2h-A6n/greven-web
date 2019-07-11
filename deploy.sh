@@ -33,7 +33,6 @@ rsync --verbose --verbose --progress --rsh='ssh' --recursive --update \
 	--exclude='/skel.html' --exclude='/.*' \
 	. $USER@$HOST:$DIR
 
-# fix perms
 printf "Fixing file permissions.\n"
 # the rsync on the server is old and doesn't understand --chown or --groupmap
 ssh $USER@$HOST "chown -R :$GROUP $DIR/*"
