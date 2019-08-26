@@ -200,9 +200,9 @@ a:hover {
 	display: inline-block;
 	margin: 0 3% 1% 1%;
 	width: auto;
-	max-width: 150px;
+	max-width: 200px;
 	max-height: 250px;
-	object-fit: contain
+	object-fit: fill
 }
 
 /* Research (research.html) */
