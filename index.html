@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<!-- (index.html) This is the homepage. -->
+<!-- READ THIS BEFORE EDITING! -->
+<!--
+	In order to keep the code that runs this website clean and simple enough
+	to maintain, please read the file "readme.txt" before editing any of the
+	html or css files.
+-->
+
+<html lang="en">
+	<div id="margin-container">
+		<!-- BEGIN MARGINS -->
+		<!-- Everything in this div is padded with margins if the window is larger than the value set in css -->
+		<head>
+			<!-- BEGIN UMN HEADER HEAD -->
+			<title>Greven Group Homepage</title>
+			<!--	None of this mobile stuff will work if you don't use a viewport meta tag -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+			<meta charset="UTF-8">
+			<link rel="stylesheet" href="headers/css/2015-tc.css">
+			<!--[if IE 8]>
+				<link rel="stylesheet" type="text/css" href="css/ie8.css">
+			<![endif]-->
+			<!--	Script below controls dropdown toggle and footer accordion. -->
+			<script src="js/umnhf-2015.js" type="text/javascript"></script>
+			<script src="js/html5shiv-printshiv.js" type="text/javascript"></script>
+			<!-- SITE CSS FILE -->
+			<link rel="stylesheet" href="css/style.css">
+			<! -- SLIDER CSS FILE -->
+			<link rel="stylesheet" href="css/slider.css"/>
+		</head>
+		<body>
+			<!-- BEGIN HEADER -->
+			<header class="umnhf" id="umnhf-h" role="banner">
+				<!-- Skip Links: Give your nav and content elements the appropriate ID attributes -->
+				<div id="skipLinks"><a href="#main-nav">Main navigation</a><a href="#main-content">Main content</a></div>
+				<div class="printer"><div class="left"></div><div class="right"><strong>University of Minnesota</strong><br />http://twin-cities.umn.edu/<br />612-625-5000</div></div>
+				<div class="umnhf" id="umnhf-h-mast">
+					<a class="umnhf" id="umnhf-h-logo" href="http://twin-cities.umn.edu/"><span>Go to the U of M home page</span></a>
+					<ul class="umnhf" id="umnhf-h-ql">
+						<li><a href="http://onestop.umn.edu/">One Stop</a></li>
+						<li class="umnhf"><a href="https://www.myu.umn.edu/">MyU <span></span></a></li>
+					</ul>
+					<!-- Button below is for dropdown toggle, only visible on mobile screens. If using a non-dropdown version you can delete this tag -->
+					<button class="umnhf" id="umnhf-m-search">Search</button>
+					<MaMaMa/div>
+					<form class="umnhf" id="umnhf-h-search" action="//search.umn.edu/tc/" method="get" title="Search Websites and People" role="search">
+						<label class="umnhf" for="umnhf-h-st">Search</label>
+						<input class="umnhf" id="umnhf-h-st" type="text" name="q" />
+						<label class="umnhf" for="umnhf-h-sb">Submit search query</label>
+						<input class="umnhf" id="umnhf-h-sb" type="submit" value="">
+					</form>
+			</header>
+			<!-- END HEADER -->
+			<a name="main-nav"></a>
+			<a name="main-content"></a>
+			<main id="umn-main" role="main">
+			</main>
+			<div id="group-header">
+				<div id="group-header-left">
+					Greven Group
+				</div>
+				<div id="group-header-right">
+					Quantum Materials: Neutron and X-ray Scattering, Transport, Nonlinear Response, Electrolyte Gating, Crystal Growth
+				</div>
+			</div>
+			<div id="group-header">
+				<!-- Slider from github.com/drygiel/csslider -->
+				<div class="csslider">
+					<input type="radio" name="slides" id="slides_1" checked />
+					<input type="radio" name="slides" id="slides_2" />
+					<input type="radio" name="slides" id="slides_3" />
+					<ul>
+						<li>
+							<img src="images/slider/imageFurnace.png" alt="Floating-zone image furnace">
+						</li>
+						<li>
+							<img src="images/slider/crystals.png" alt="Co-mounted crystals for neutron scattering">
+						</li>
+						<li>
+							<img src="images/slider/seebeck.png" alt="Sample prepared for Seebeck coefficient experiments">
+						</li>
+					</ul>
+					<div class="arrows">
+						<label for="slides_1"></label>
+						<label for="slides_2"></label>
+						<label for="slides_3"></label>
+						<label for="slides_1" class="goto-first"></label>
+						<label for="slides_3" class="goto-last"></label>
+					</div>
+					<div class="navigation">
+						<div>
+							<label for"slides_1"></label>
+							<label for"slides_2"></label>
+							<label for"slides_3"></label>
+						</div>
+					</div>
+				</div>
+			</div>  <!-- End Group Header -->
+
+			<nav id="navcontainer">
+				<ul id="navlist">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="people.html">People</a></li>
+					<li><a href="research.html">Research</a></li>
+					<li><a href="publications.html">Publications</a></li>
+					<li><a href="collaborations.html">Collaborations</a></li>
+					<li><a href="links.html">Links</a></li>
+					<li><a href="http://www.physics.umn.edu/">Physics Home</a></li>
+				</ul>
+			</nav>
+
+			<div id="page-body">
+				<!-- Latest News -->
+				<div id="news-container">
+					<h2>Latest News</h2>
+					<!-- TODO: Jack -->
+					<div id="news-item">
+					  <div id="news-date">08/2019</div>
+					  <h3>
+					    <a href="http://cqm.umn.edu/">
+					      Center for Quantum Materials grant renewed.
+					    </a>
+					  </h3>
+					</div>
+					<div id="news-item">
+					  <div id="news-date">08/2019</div>
+					  <h3>
+					    <a href="people.html">
+					      Visiting students Benjamin Klebel and Ana Najev join our group.
+					    </a>
+					  </h3>
+					</div>
+					<div id="news-item">
+					  <div id="news-date">08/2019</div>
+					  <h3>
+					    <a href="people.html">
+					      Nina Bielinski, Nikhil Gupta and Karl Olson complete their undergraduate degrees and move on to graduate school.
+					    </a>
+					  </h3>
+					</div>
+					<div id="news-item">
+					  <div id="news-date">05/2019</div>
+					  <h3>
+					    <a href="people.html">
+					      Davis Emerson, Isaac Martin, and Zi Wang join our group.
+					    </a>
+					  </h3>
+					</div>
+					<div id="news-item">
+						<div id="news-date">03/2019</div>
+						<h3>
+							<a href="http://meetings.aps.org/Meeting/MAR19/Session/C43.3">
+							Damjan Pelc gives an invited talk at the APS March Meeting
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<div id="news-date">01/2019</div>
+						<h3>
+							<a href="people.html">
+							Nikolaos Biniskos joins our group
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<div id="news-date">09/2018</div>
+						<h3>
+							<a href="people.html">
+							Richard Spieker and Chiou Yang Tan join our group
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<div id="news-date">08/2018</div>
+						<h3>
+							<a href="people.html">
+							Yang Tang graduated with a PhD
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<div id="news-date">04/2018</div>
+						<h3>
+							<a href="people.html">
+							Joseph Joe joins our group
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<div id="news-date">03/2018</div>
+						<h3>
+							<a href="http://www.scholarswalk.umn.edu/awards/mcknight/mcknight_distinguished.html">
+							Martin Greven named a Distinguished McKnight University Professor
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<div id="news-date">03/2018</div>
+						<h3>
+							<a href="https://www.mrs.org/acns-2018-nssa-prize-winners">
+							Martin Greven named a fellow of the Neutron Scattering Society of America
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<div id="news-date">03/2018</div>
+						<h3>
+							<a href="people.html">
+								Sylvia Griffitt joins our group
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<!--TODO: This is probably not the right date!-->
+						<div id="news-date">11/2017</div>
+						<h3>
+							<a href="people.html">
+								Biqiong Yu wins UMN Doctoral Dissertation Fellwoship
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<!--TODO: This is probably not the right date!-->
+						<div id="news-date">11/2017</div>
+						<h3>
+							<a href="people.html">
+								Nina Bielinski and Nikhil Gupta win competitive research awards by the School of Physics and Astronomy
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<!--TODO: This is probably not the right date!-->
+						<div id="news-date">10/2017</div>
+						<h3>
+							<a href="people.html">
+								Vikram Nagarajan joins graduate school at UC Berkeley
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<!--TODO: This is probably not the right date!-->
+						<div id="news-date">10/2017</div>
+						<h3>
+							<a href="people.html">
+								Madison Wieczorek and Liam Thompson join our group
+							</a>
+						</h3>
+					</div>
+					<div id="news-item">
+						<div id="news-date">10/2017</div>
+						<h3>
+							<a href="people.html">
+								Damjan Pelc joins our group
+							</a>
+						</h3>
+					</div>
+				</div>
+				<!-- Main body text -->
+				<div id="main-content">
+					<p>
+					We study the structural, electronic and magnetic properties of select quantum materials, especially complex oxides. This materials class embodies many of the most fundamental contemporary questions pertaining to the quantum behavior of interacting electrons. Our research involves bulk single crystal growth, neutron and X-ray scattering as well as charge transport and nonlinear magnetic response experiments, and we engage in extensive collaborations with experts in the use of complementary experimental techniques. Most of our work is supported by the <a href="http://science.energy.gov/bes/">Department of Energy, Office of Basic Energy Sciences</a> through the University of Minnesota <a href="http://cqm.umn.edu">Center for Quantum Materials</a>. In addition, through a <a href="http://www.mrsec.umn.edu/Research/IRG1.php">NSF MRSEC grant</a>, we are using synchrotron X-rays to study electrolyte-gated films of complex oxides, such as cuprates, cobaltites and titanates. <a href="research.html">Learn more.</a>
+					</p>
+
+					<p>Selected results (since 2007):</p>
+					<div id="main-list">
+						<ul>
+							<li><a href="https://www.nature.com/articles/s41467-019-10635-w">Universal superconducting precursor in three classes of unconventional superconductors</a></li>
+							<li><a href="http://advances.sciencemag.org/content/5/2/eaap7349">Hole pocket-driven superconductivity and its universal features in the electron-doped cuprates</a></li>
+							<li><a href="http://advances.sciencemag.org/content/5/1/eaau4538.full">Unusual behavior of cuprates explained by heterogeneous charge localization</a></li>
+							<li><a href="https://www.nature.com/articles/s41467-018-06707-y">Emergence of superconductivity in the cuprates via a universal percolation process</a></li>
+							<li><a href="https://www.nature.com/articles/s41535-018-0115-2">Percolative nature of the dc paraconductivity in the cuprate superconductors</a></li>
+							<li><a href="https://arxiv.org/abs/1808.05763">Universal superconducting precursor regime in perovskite-based oxides</a></li>
+							<li><a href="https://journals.aps.org/prmaterials/abstract/10.1103/PhysRevMaterials.1.071403">Ion-Gel-Gating-Induced Oxygen Vacancy Formation in Epitaxial La<sub>0.5</sub>Sr<sub>0.5</sub>CoO<sub>3-δ</sub> Films from <i>in operando</i> X-ray and Neutron Scattering</a></li>
+							<li><a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.117.197001">Hidden Fermi-liquid charge transport in the antiferromagnetic phase of the electron-doped cuprate superconductors</a></li>
+							<li><a href="http://www.nature.com/articles/ncomms10819">Commensurate antiferromagnetic excitations as a signature of the pseudogap in the tetragonal high-T<sub>c</sub> cuprate HgBa<sub>2</sub>CuO<sub>4+δ</sub></a></li>
+							<li><a href="http://www.nature.com/articles/ncomms6875">Charge order and its connection with Fermi-liquid charge transport in a pristine high-Tc cuprate</a></li>
+							<li><a href="http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.113.177005">In-Plane Magnetoresistance Obeys Kohler’s Rule in the Pseudogap Phase of Cuprate Superconductors</a></li>
+							<li><a href="http://www.nature.com/nphys/journal/v9/n12/full/nphys2792.html">Universal quantum oscillations in the underdoped cuprate superconductors</a></li>
+							<li><a href="http://www.pnas.org/content/110/30/12235.abstract?sid=0b2ffdea-1516-4c63-b749-414c22f92201">Universal sheet resistance and revised phase diagram of the cuprate high-temperature superconductors</a></li>
+							<li><a href="http://www.pnas.org/content/early/2013/03/27/1218846110">Spectroscopic Evidence for a Fermi liquid-like energy and temperature dependence of the relaxation rate in the pseudogap phase of the cuprates</a></li>
+							<li><a href="http://dx.doi.org/10.1038/nature07251">Unusual magnetic order in the pseudogap region of the superconductor HgBa<sub>2</sub>CuO<sub>4+δ</sub></a></li>
+							<li><a href="http://dx.doi.org/10.1038/nature05437">Spin correlations in the electron-doped high-transition-temperature superconductor Nd<sub>2-x</sub>Ce<sub>x</sub>CuO<sub>4+δ</sub></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- Logos, etc. -->
+				<div id="logo-container">
+					<a><img src="images/other/MRSECLogo.png" alt="NSF MRSEC Logo"></a>
+					<a><img src="images/other/DOEOSLogo.png" alt="DOE Office of Science Logo"></a>
+				</div>
+				<div id="main-address">
+					<p>Physics and Nanotechnology (PAN) Building, 115 Union St. S.E., University of Minnesota, Minneapolis, MN 55455</p>
+				</div>
+				<!-- END WEBSITE CONTENT -->
+			</div>
+			<!-- BEGIN UMN FOOTER -->
+			<footer id="umnhf-f" class="umnhf" role="contentinfo">	
+				<nav id="umnhf-f-myu">
+					<h3 class="umnhf-f-title visually-hidden">For Students, Faculty, and Staff</h3>
+					<ul>
+						<li><a href="http://onestop.umn.edu/">One Stop</a></li>
+						<li><a href="https://www.myu.umn.edu/">My U <span></span></a></li>
+					</ul>
+				</nav>	
+				<small>&copy; <span id="cdate">2016</span> Regents of the University of Minnesota. All rights reserved. The University of Minnesota is an equal opportunity educator and employer. <a href="http://privacy.umn.edu">Privacy Statement</a></small>
+			</footer>
+			<!-- END UMN FOOTER -->
+		</body>
+		<!-- END MARGINS -->
+				</div>
+</html>
