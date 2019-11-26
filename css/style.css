@@ -199,10 +199,11 @@ a:hover {
 	float: left;
 	display: inline-block;
 	margin: 0 3% 1% 1%;
-	width: auto;
+	width: 180;
+	height: 180;
 	max-width: 200px;
 	max-height: 250px;
-	object-fit: fill
+	object-fit: cover;
 }
 
 /* Research (research.html) */
