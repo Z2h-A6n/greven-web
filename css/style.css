@@ -1,0 +1,236 @@
+/* General site style */
+body{
+	background: white;
+	font-family: sans-serif;
+}
+
+a:link {
+	color: #0b3d4c;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #303030;
+}
+
+#margin-container {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1152px;
+}
+
+#group-header {
+	width: 100%;
+	max-width: 1152px;
+	color: #ffcc33;
+	background-color: #616365;
+	overflow: auto;
+}
+
+#group-header-left {
+	float: left;
+	display: inline-block;
+	font-size: 25px;
+	font-family: serif;
+	width: auto;
+	margin: 5px 10px;
+}
+
+#group-header-right {
+	float: right;
+	display: inline-block;
+	font-size: 15px;
+	font-family: serif;
+	width: auto;
+	margin: 5px 10px;
+}
+
+
+/* Navigation Bar */
+#navcontainer {
+	background-color: #616365;
+	clear: both;
+}
+
+#navcontainer ul {
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 0;
+	margin-top: 0; 					/* cancels gap caused by top padding in Opera 7.54 */
+	margin-left: 0;
+	background-color: #616365;
+	color: white;
+	width: 100%;
+	line-height: 25px; 				/* fixes Firefox 0.9.3 */
+}
+
+#navcontainer ul li {
+	display: inline;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 5px; 				/* matches link padding except for left and right */
+	padding-top: 5px;
+}
+
+#navcontainer ul li a {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	margin: 20px 0 20px 0;
+	background-color: #3A3434;
+	color: white;
+	text-decoration: none;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	white-space: nowrap;
+}
+
+#navcontainer ul li a:hover {
+	background-color: #900021;
+	color: white;
+	white-space: nowrap;
+}
+
+#page-body {
+	overflow: hidden;
+	margin-left: 15px;
+	background-color: white;
+}
+
+/* Home page (index.html) */
+#news-container {
+	display: inline-block;
+	float: left;
+	width: 30%;
+	border-width: 2px;
+	border-color: white;
+	margin: 0px 25px 0px 5px;
+	font-size: small;
+}
+
+#news-container h2 {
+	background-color: #616365;
+	color: #ffcc33;
+	padding: 2px;
+	text-align: center;
+	font-size: medium;
+	border-radius: 5px;
+	margin: 5px 3px 3px;
+}
+
+#news-item {
+	background-color: #cccccc;
+	padding: 2px;
+	margin: 3px 5px;
+	border-radius: 5px;
+}
+
+#news-item h3 {
+	font-size: small;
+}
+
+#news-date {
+    text-align: right;
+    font-size: small;
+}
+
+#main-content {
+	display: inline-block;
+	width: 65%;
+}
+
+#main-list li {
+    margin: 10px 0;
+}
+
+#main-address {
+	text-align: center;
+    font-size: small;
+}
+
+#logo-container {
+	text-align: center;
+}
+
+#logo-container img {
+	display: inline-block;
+	width: auto;
+	max-width: 300px;
+	max-height: 200px;
+	margin: 30px;
+}
+
+.etal {
+	font-style: italic;
+}
+
+/* People (people.html) */
+#group-photo img {
+	width: 100%;
+	height: auto;
+}
+
+#people-container {
+	clear: both;
+}
+
+#person {
+	clear: both;
+	overflow: auto;
+	padding: 2px;
+	border: 1px solid #444;
+	border-radius: 10px;
+	margin: 3px 1px;
+	
+}
+
+#person-text {
+	display: inline-block;
+	max-width: 900px;
+	width: auto;
+}
+
+#person img {
+	float: left;
+	display: inline-block;
+	margin: 0 3% 1% 1%;
+	width: 180px;
+	height: 180px;
+	max-width: 200px;
+	max-height: 250px;
+	object-fit: cover
+}
+
+/* Research (research.html) */
+
+/* Publications (pubications.html) */
+
+
+#publication-container-local {
+	background-color: #f7e7b2;
+	padding: 0.5%;
+	border: 1px solid #444;
+	border-radius: 10px;
+	margin: 2% 5%;
+}
+
+#publication-container-collab {
+	background-color: #cccccc;
+	padding: 0.5%;
+	border: 1px solid #444;
+	border-radius: 10px;
+	margin: 2% 5%;
+}
+/* Collaborations (collaborations.html) */
+
+/* Links (links.html) */
+
+/* Resources (resources.html) */
+
+
+
